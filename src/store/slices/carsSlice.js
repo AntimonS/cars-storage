@@ -15,7 +15,7 @@ const carsSlice = createSlice({
       //action.payload==={name:"",cost:140}
       state.cars.push({
         name: action.payload.name,
-        cost: action.paxoad.cost,
+        cost: action.payload.cost,
         id: nanoid(),
       });
     },
